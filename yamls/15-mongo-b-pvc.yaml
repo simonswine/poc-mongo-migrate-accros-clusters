@@ -1,0 +1,14 @@
+kind: PersistentVolumeClaim
+apiVersion: v1
+metadata:
+  name: mongo-b
+  namespace: mongo
+spec:
+  accessModes:
+  - ReadWriteOnce
+  selector:
+    matchLabels:
+      failure-domain.beta.kubernetes.io/zone: eu-west-1b
+  resources:
+    requests:
+      storage: 18Gi

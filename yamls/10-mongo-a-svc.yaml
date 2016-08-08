@@ -1,0 +1,14 @@
+---
+kind: Service
+apiVersion: v1
+metadata:
+  name: mongo-a
+  namespace: mongo
+spec:
+  selector:
+    app: mongo
+    zone: eu-west-1a
+  ports:
+  - protocol: TCP
+    port: 27017
+    targetPort: 27017

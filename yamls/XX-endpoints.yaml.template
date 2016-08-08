@@ -1,0 +1,7 @@
+metadata:
+  name: %%NAME%%
+  namespace: mongo
+subsets:
+  ports:
+  - port: 27017
+    protocol: TCP
