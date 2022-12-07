@@ -1,4 +1,4 @@
-certifi==2016.8.2
+certifi==2022.12.7
 -e git+https://github.com/pearsontechnology/k8sv1.git@e6c2f283843c520262eef227588195185f5fb0c9#egg=k8sv1
 -e git+https://github.com/pearsontechnology/k8sv1beta1.git@def6f02769446c1d7d590756e24ef3edef728c86#egg=k8sv1beta1
 pkg-resources==0.0.0
